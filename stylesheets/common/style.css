@@ -16,5 +16,5 @@
  * 01 - Global
  * ----------------------------------------------*/
 * { margin: 0; padding: 0; outline: none; }
-body { font: 14px/150% "Helvetica", Arial, Verdana; color: #666; }
+body { background: url(../../images/bg/body.png); font: 14px/150% "Helvetica", Arial, Verdana; color: #666; }
 
