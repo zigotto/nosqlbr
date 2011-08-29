@@ -12,7 +12,7 @@
  *
  * 01 - Global
  * 02 - Header
- * 03 - Content
+ * 03 - Page Home Event
  *
  * -----------------------------------------------*/
 
@@ -32,29 +32,31 @@ h3 { font: 18px/100% 'courier', Helvetica, Arial; color: #333; margin-bottom: 5p
 /*
  * 02 - Header
  * ----------------------------------------------*/
-div#header { width: 1000px; margin: auto; }
-div#header div.nav { width: 880px; height: 80px; float: left; margin: 5px 0 5px 60px; }
-div#header div.nav a { width: 150px; height: 42px; padding-top: 28px; float: left; background: url(../../images/nav/header.png) top no-repeat; margin: 5px 10px 0 10px; text-align: center; letter-spacing: -1px; font: 20px/100% 'courier', Helvetica, Arial, Verdana; color: #000;}
-div#header div.nav a:hover { background: url(../../images/nav/header.png) bottom no-repeat; color: #00aeef; }
-div#header div.brand { width: 200px; height: 80px; float: left; }
-div#header div.social-media { width: 1000px; height: 28px; float: left; text-align: center; padding-top: 4px; }
-div#header div.social-media span { height: 24px; float: right; }
-div#header div.social-media span.google { width: 75px; height: 24px; float: right; }
+div#header { width: 100%; height: 130px; position: absolute; top: 0; z-index: 1; position: fixed; background: url(../../images/bg/header.png) no-repeat center; }
+div#header div.container { width: 1000px; margin: auto; }
+div#header div.container div.nav { width: 880px; height: 80px; float: left; margin: 5px 0 5px 60px; }
+div#header div.container div.nav a { width: 150px; height: 42px; padding-top: 28px; float: left; background: url(../../images/nav/header.png) top no-repeat; margin: 5px 10px 0 10px; text-align: center; letter-spacing: -1px; font: 20px/100% 'courier', Helvetica, Arial, Verdana; color: #000;}
+div#header div.container div.nav a:hover { background: url(../../images/nav/header.png) bottom no-repeat; color: #00aeef; }
+div#header div.container div.brand { width: 200px; height: 80px; float: left; }
+div#header div.container div.social-media { width: 985px; height: 32px; float: left; text-align: center; padding: 0 0 0 15px; }
+div#header div.container div.social-media span { height: 24px; float: left; }
+div#header div.container div.social-media span.google { width: 75px; height: 24px; float: left; }
 
 /*
- * 03 - Content
+ * 03 - Page Home Event
  * ----------------------------------------------*/
-div#content { width: 1000px; padding: 15px 0; margin: auto; border-bottom: solid 1px red; }
-div#content div.description { width: 680px; padding: 0 10px; float: left; border-bottom: solid 1px lime; }
-div#content div.description p { display: block; margin-bottom: 10px; }
-div#content div.supporters { width: 300px; float: left; border-bottom: solid 1px lime; }
-div#content div.supporters div.top { width: 300px; height: 40px; float: left; background: url(../../images/bg/top-supporters.png) no-repeat; }
-div#content div.supporters div.top h1 { text-align: center; }
-div#content div.supporters div.brands { width: 268px; padding: 5px 0; float: left; margin: 0 15px; border-left: dashed 1px #706f6f; border-right: dashed 1px #706f6f;}
-div#content div.supporters div.brands h3 { width: 250px; padding: 7px 0; text-align: center; margin: 0 9px; color: #000; border: dashed 1px #706f6f; font-weight: bold; }
-div#content div.supporters div.brands img.platinum { width: 250px; height: 100px; margin: 4px 9px; display: block;}
-div#content div.supporters div.brands img.gold { width: 120px; height: 72px; margin: 4px 7px; float: left;}
-div#content div.supporters div.brands img.silver { width: 120px; height: 50px; margin: 4px 7px; float: left;}
-div#content div.supporters div.brands img.bronze-support { width: 120px; height: 30px; margin: 4px 7px; float: left;} 
-div#content div.supporters div.bottom { width: 300px; height: 73px; float: left; background: url(../../images/bg/bottom-supporters.png) no-repeat; }
+div#home { width: 100%; position: absolute; }
+div#home div.container { width: 1000px; padding: 140px 0 15px 0; margin: auto; }
+div#home div.container div.description { width: 680px; padding: 0 10px; float: left; }
+div#home div.container div.description p { display: block; margin-bottom: 10px; line-height: 170%; }
+div#home div.container div.supporters { width: 300px; float: left; }
+div#home div.container div.supporters div.top { width: 300px; height: 40px; float: left; background: url(../../images/bg/top-supporters.png) no-repeat; }
+div#home div.container div.supporters div.top h1 { text-align: center; }
+div#home div.container div.supporters div.brands { width: 268px; padding: 5px 0; float: left; margin: 0 15px; border-left: dashed 1px #706f6f; border-right: dashed 1px #706f6f;}
+div#home div.container div.supporters div.brands h3 { width: 250px; padding: 7px 0; text-align: center; margin: 10px 9px; color: #000; border: dashed 1px #706f6f; font-weight: bold; float: left; }
+div#home div.container div.supporters div.brands img.platinum { width: 250px; height: 100px; margin: 4px 9px; display: block;}
+div#home div.container div.supporters div.brands img.gold { width: 120px; height: 72px; margin: 4px 7px; float: left;}
+div#home div.container div.supporters div.brands img.silver { width: 120px; height: 50px; margin: 4px 7px; float: left;}
+div#home div.container div.supporters div.brands img.bronze-support { width: 120px; height: 30px; margin: 4px 7px; float: left;} 
+div#home div.container div.supporters div.bottom { width: 300px; height: 73px; float: left; background: url(../../images/bg/bottom-supporters.png) no-repeat; }
 
