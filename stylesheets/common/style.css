@@ -11,6 +11,8 @@
  * ----------------------------------------------
  *
  * 01 - Global
+ * 02 - Header
+ * 03 - Content
  *
  * -----------------------------------------------*/
 
@@ -18,8 +20,10 @@
  * 01 - Global
  * ----------------------------------------------*/
 * { margin: 0; padding: 0; outline: none; }
-body { background: url(../../images/bg/body.png); font: 15px/150% "Helvetica", Arial, Verdana; color: #666; text-shadow: 0 1px 0 #fff; }
+body { background: url(../../images/bg/body.png); font: 15px/150% "Helvetica", Arial, Verdana; color: #333; text-shadow: 0 1px 0 #fff; }
 a { text-decoration: none; color: #666; }
+.clearfix { clear: both; display: block; }
+h1 { font: 22px/100% 'courier', Helvetica, Arial; color: #000; margin-bottom: 10px; letter-spacing: -2px; }
 
 
 /*
@@ -31,3 +35,10 @@ div#header div.nav a { width: 150px; height: 42px; padding-top: 28px; float: lef
 div#header div.nav a:hover { background: url(../../images/nav/header.png) bottom no-repeat; }
 div#header div.brand { width: 200px; height: 80px; float: left; }
 
+/*
+ * 03 - Content
+ * ----------------------------------------------*/
+div#content { width: 1000px; padding: 15px 0; margin: auto; border-bottom: solid 1px red; }
+div#content div.description { width: 680px; padding: 0 10px; float: left; border-bottom: solid 1px lime; }
+div#content div.description p { display: block; margin-bottom: 10px; }
+div#content div.supporters { width: 300px; height: 400px; float: left; background: url(../../images/bg/supporters.png) no-repeat; }
