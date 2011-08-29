@@ -24,6 +24,9 @@ body { background: url(../../images/bg/body.png); font: 15px/150% "Helvetica", A
 a { text-decoration: none; color: #666; }
 .clearfix { clear: both; display: block; }
 h1 { font: 22px/100% 'courier', Helvetica, Arial; color: #000; margin-bottom: 10px; letter-spacing: -2px; }
+h2 { font: 20px/100% 'courier', Helvetica, Arial; color: #333; margin-bottom: 5px; letter-spacing: -2px; }
+h3 { font: 18px/100% 'courier', Helvetica, Arial; color: #333; margin-bottom: 5px; letter-spacing: -2px; }
+
 
 
 /*
@@ -32,7 +35,7 @@ h1 { font: 22px/100% 'courier', Helvetica, Arial; color: #000; margin-bottom: 10
 div#header { width: 1000px; height: 90px; margin: auto; border-bottom: solid 1px #fff; }
 div#header div.nav { width: 880px; height: 80px; float: left; margin: 5px 0 5px 60px; }
 div#header div.nav a { width: 150px; height: 42px; padding-top: 28px; float: left; background: url(../../images/nav/header.png) top no-repeat; margin: 5px 10px 0 10px; text-align: center; letter-spacing: -1px; font: 20px/100% 'courier', Helvetica, Arial, Verdana; color: #000;}
-div#header div.nav a:hover { background: url(../../images/nav/header.png) bottom no-repeat; }
+div#header div.nav a:hover { background: url(../../images/nav/header.png) bottom no-repeat; color: #00aeef; }
 div#header div.brand { width: 200px; height: 80px; float: left; }
 
 /*
@@ -41,4 +44,12 @@ div#header div.brand { width: 200px; height: 80px; float: left; }
 div#content { width: 1000px; padding: 15px 0; margin: auto; border-bottom: solid 1px red; }
 div#content div.description { width: 680px; padding: 0 10px; float: left; border-bottom: solid 1px lime; }
 div#content div.description p { display: block; margin-bottom: 10px; }
-div#content div.supporters { width: 300px; height: 400px; float: left; background: url(../../images/bg/supporters.png) no-repeat; }
+div#content div.supporters { width: 300px; float: left; border-bottom: solid 1px lime; }
+div#content div.supporters div.top { width: 300px; height: 40px; float: left; background: url(../../images/bg/top-supporters.png) no-repeat; }
+div#content div.supporters div.top h1 { text-align: center; }
+div#content div.supporters div.brands { width: 268px; padding: 5px 0; float: left; margin: 0 15px; border-left: dashed 1px #706f6f; border-right: dashed 1px #706f6f;}
+div#content div.supporters div.brands h3 { width: 250px; padding: 7px 0; text-align: center; margin: 0 9px; color: #000; border: dashed 1px #706f6f; font-weight: bold; }
+div#content div.supporters div.brands img.platinum { width: 250px; height: 100px; margin: 4px 9px; display: block;}
+div#content div.supporters div.brands img.gold { width: 120px; height: 72px; margin: 4px 7px; float: left;}
+div#content div.supporters div.brands img.silver { width: 120px; height: 50px; margin: 4px 7px; float: left;}
+div#content div.supporters div.brands img.bronze-support { width: 120px; height: 30px; margin: 4px 7px; float: left;} 
