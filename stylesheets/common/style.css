@@ -4,6 +4,8 @@
  * contato@zigotto.com.br | +55 (12) 3942.8874 --
  * ---------------------------------------------*/
 
+@import url("../font-face/font.css");
+
 /*
  * Reference
  * ----------------------------------------------
@@ -16,5 +18,16 @@
  * 01 - Global
  * ----------------------------------------------*/
 * { margin: 0; padding: 0; outline: none; }
-body { background: url(../../images/bg/body.png); font: 14px/150% "Helvetica", Arial, Verdana; color: #666; }
+body { background: url(../../images/bg/body.png); font: 15px/150% "Helvetica", Arial, Verdana; color: #666; text-shadow: 0 1px 0 #fff; }
+a { text-decoration: none; color: #666; }
+
+
+/*
+ * 02 - Header
+ * ----------------------------------------------*/
+div#header { width: 1000px; height: 90px; margin: auto; border-bottom: solid 1px #fff; }
+div#header div.nav { width: 880px; height: 80px; float: left; margin: 5px 0 5px 60px; }
+div#header div.nav a { width: 150px; height: 42px; padding-top: 28px; float: left; background: url(../../images/nav/header.png) top no-repeat; margin: 5px 10px 0 10px; text-align: center; letter-spacing: -1px; font: 20px/100% 'courier', Helvetica, Arial, Verdana; color: #000;}
+div#header div.nav a:hover { background: url(../../images/nav/header.png) bottom no-repeat; }
+div#header div.brand { width: 200px; height: 80px; float: left; }
 
