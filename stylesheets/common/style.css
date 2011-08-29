@@ -53,3 +53,5 @@ div#content div.supporters div.brands img.platinum { width: 250px; height: 100px
 div#content div.supporters div.brands img.gold { width: 120px; height: 72px; margin: 4px 7px; float: left;}
 div#content div.supporters div.brands img.silver { width: 120px; height: 50px; margin: 4px 7px; float: left;}
 div#content div.supporters div.brands img.bronze-support { width: 120px; height: 30px; margin: 4px 7px; float: left;} 
+div#content div.supporters div.bottom { width: 300px; height: 73px; float: left; background: url(../../images/bg/bottom-supporters.png) no-repeat; }
+
