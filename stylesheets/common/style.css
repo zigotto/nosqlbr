@@ -106,15 +106,15 @@ div#speakers div.container a { border: dashed 1px #706f6f; padding: 3px 5px; mar
 div#speakers div.container a:hover { background: #fff; }
 div#speakers div.container a.twitter-speaker { width: 32px; height: 32px; text-indent: -9999px; float: left; background: url(../../images/nav/key_t.png) no-repeat; border: none; margin: 9px 0 4px 0px; }
 div#speakers div.container a.blog-speaker { width: 32px; height: 32px; text-indent: -9999px; float: left; background: url(../../images/nav/key_b.png) no-repeat; border: none; margin: 9px 0 4px 0; }
+
 /*
  * 03 - Page Registration
  * ----------------------------------------------*/
-div#registration { width: 100%; top: 8200px; position: absolute; }
+div#registration { width: 100%; top: 10200px; position: absolute; }
 div#registration div.container { width: 1000px; padding: 140px 0 15px 0; margin: auto; }
-
-
+div#registration div.container p { margin: 10px 0;}
 
 /*
  * 0 - Footer
  * ----------------------------------------------*/
-div#footer { width: 100%; height: 200px; position: absolute; top: 10200px; }
+div#footer { width: 100%; height: 200px; position: absolute; top: 12200px; }
