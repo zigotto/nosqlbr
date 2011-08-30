@@ -109,8 +109,8 @@ div#speakers div.container img { float: left; margin: 0 10px 5px 0; }
 div#speakers div.container p { float: right; width: 830px; }
 div#speakers div.container a { border: dashed 1px #706f6f; padding: 3px 5px; margin: 10px 10px 0 0; float: left; color: #000; }
 div#speakers div.container a:hover { background: #fff; }
-div#speakers div.container a.twitter-speaker { width: 32px; height: 32px; text-indent: -9999px; float: left; background: url(../../images/nav/key_t.png) no-repeat; border: none; margin: 9px 0 4px 0px; }
-div#speakers div.container a.blog-speaker { width: 32px; height: 32px; text-indent: -9999px; float: left; background: url(../../images/nav/key_b.png) no-repeat; border: none; margin: 9px 0 4px 0; }
+div#speakers div.container a.twitter-speaker { width: 32px; height: 32px; text-indent: -9999px; float: left; background: url(../../images/ico/twitter.png) no-repeat; border: none; margin: 9px 0 4px 0px; }
+div#speakers div.container a.blog-speaker { width: 32px; height: 32px; text-indent: -9999px; float: left; background: url(../../images/ico/blog.png) no-repeat; border: none; margin: 9px 0 4px 0; }
 
 /*
  * 03 - Page Registration
