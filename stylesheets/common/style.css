@@ -40,9 +40,13 @@ div#header div.container div.nav { width: 880px; height: 80px; float: left; marg
 div#header div.container div.nav a { width: 150px; height: 42px; padding-top: 28px; float: left; background: url(../../images/nav/header.png) top no-repeat; margin: 5px 10px 0 10px; text-align: center; letter-spacing: -1px; font: 18px/100% 'courier', Helvetica, Arial, Verdana; color: #000;}
 div#header div.container div.nav a:hover { background: url(../../images/nav/header.png) bottom no-repeat; color: #00aeef; }
 div#header div.container div.brand { width: 200px; height: 80px; float: left; }
-div#header div.container div.social-media { width: 985px; height: 32px; float: left; text-align: center; padding: 0 0 0 15px; }
+div#header div.container div.social-media { width: 385px; float: left; text-align: center; padding: 0 0 0 15px; }
 div#header div.container div.social-media span { height: 24px; float: left; }
 div#header div.container div.social-media span.google { width: 75px; height: 24px; float: left; }
+div#header div.container div.contact { width: 400px; padding-right: 15px;  float: right; text-align: right; color: #666; }
+div#header div.container div.contact a { color: #000; border-bottom: dashed 1px #ccc; }
+div#header div.container div.contact a:hover { color: #666; border-bottom: dashed 1px #000; }
+
 
 /*
  * 03 - Page Home Event
