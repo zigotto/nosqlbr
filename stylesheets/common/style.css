@@ -62,7 +62,7 @@ div#home div.container div.supporters div.brands img.bronze-support { width: 120
 div#home div.container div.supporters div.bottom { width: 300px; height: 73px; float: left; background: url(../../images/bg/bottom-supporters.png) no-repeat; }
 
 /*
- * 03 - Page Speakers
+ * 03 - Page Grid
  * ----------------------------------------------*/
 div#grid { width: 100%; top: 3200px; position: absolute; }
 div#grid div.container { width: 1000px; padding: 140px 0 15px 0; margin: auto; background: url(../../images/bg/speakers.png) repeat-y; }
@@ -82,6 +82,9 @@ div#grid div.container div.grid-saturday div.talk { width: 480px; padding: 5px 0
 div#grid div.container div.grid-saturday div.talk div.img-ico { width: 60px; height: 60px; float: right; clear: right; }
 div#grid div.container div.grid-saturday div.talk div.hours { width: 60px; height: 60px; float: right; clear: right; font-size: 18px; color: #000; font-family: 'courier', Helvetica, Arial, Verdana; letter-spacing: -3px; text-align: center; margin-top: 5px; font-weight: bold; }
 div#grid div.container div.grid-saturday div.talk h3 { width: 400px; padding-top: 21px; float: left; color: #000; font-weight: bold; clear: left; text-align: right; }
+div#grid div.container div.grid-saturday div.talk a.title { margin-top: 16px; font-size: 20px; letter-spacing: -1px; font-family: 'courier', Helvetica, Arial, Verdana; width: 400px; float: left; color: #000; font-weight: bold; clear: left; text-align: right; }
+div#grid div.container div.grid-saturday div.talk a { font-size: 18px; letter-spacing: -1px; font-family: 'courier', Helvetica, Arial, Verdana; width: 400px; float: left; color: #000; font-weight: bold; clear: left; text-align: right; }
+div#grid div.container div.grid-saturday div.talk a:hover { text-decoration: underline; }
 div#grid div.container div.grid-saturday div.talk p { width: 400px; float: left; clear: left; }
 
 /*
