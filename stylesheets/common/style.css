@@ -20,7 +20,7 @@
  * 01 - Global
  * ----------------------------------------------*/
 * { margin: 0; padding: 0; outline: none; }
-body { background: url(../../images/bg/body.png); font: 15px/150% "Helvetica", Arial, Verdana; color: #333; text-shadow: 0 1px 0 #fff; }
+body { background: url(../../images/bg/body.png) fixed; font: 15px/150% "Helvetica", Arial, Verdana; color: #333; text-shadow: 0 1px 0 #fff; }
 a { text-decoration: none; color: #666; }
 .clearfix { clear: both; display: block; }
 h1 { font: 22px/100% 'courier', Helvetica, Arial; color: #000; margin-bottom: 10px; letter-spacing: -2px; }
