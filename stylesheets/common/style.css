@@ -60,3 +60,26 @@ div#home div.container div.supporters div.brands img.silver { width: 120px; heig
 div#home div.container div.supporters div.brands img.bronze-support { width: 120px; height: 30px; margin: 4px 7px; float: left;} 
 div#home div.container div.supporters div.bottom { width: 300px; height: 73px; float: left; background: url(../../images/bg/bottom-supporters.png) no-repeat; }
 
+/*
+ * 03 - Page Speakers
+ * ----------------------------------------------*/
+div#speakers { width: 100%; top: 3200px; position: absolute; }
+div#speakers div.container { width: 1000px; padding: 140px 0 15px 0; margin: auto; background: url(../../images/bg/speakers.png) repeat-y; }
+div#speakers div.container div.grid { width: 480px; float: left; margin: 0 10px; }
+div#speakers div.container div.grid h1 { text-align: center; }
+div#speakers div.container div.grid div.talk { width: 480px; padding: 5px 0; margin-bottom: 15px; border-bottom: dashed 1px #706f6f; }
+div#speakers div.container div.grid div.talk div.img-ico { width: 60px; height: 60px; float: left; clear: left; }
+div#speakers div.container div.grid div.talk div.hours { width: 60px; height: 60px; float: left; clear: left; font-size: 18px; color: #000; font-family: 'courier', Helvetica, Arial, Verdana; letter-spacing: -3px; text-align: center; margin-top: 5px; font-weight: bold; }
+div#speakers div.container div.grid div.talk h3 { width: 400px; padding-top: 21px; float: right; color: #000; font-weight: bold; clear: right; }
+div#speakers div.container div.grid div.talk p { width: 400px; float: right; clear: right; }
+div#speakers div.container div.grid-saturday { width: 480px; float: right; margin: 0 10px; }
+div#speakers div.container div.grid-saturday h1 { text-align: center; }
+div#speakers div.container div.grid-saturday div.talk { width: 480px; padding: 5px 0; margin-bottom: 15px; border-bottom: dashed 1px #706f6f; }
+div#speakers div.container div.grid-saturday div.talk div.img-ico { width: 60px; height: 60px; float: right; clear: right; }
+div#speakers div.container div.grid-saturday div.talk div.hours { width: 60px; height: 60px; float: right; clear: right; font-size: 18px; color: #000; font-family: 'courier', Helvetica, Arial, Verdana; letter-spacing: -3px; text-align: center; margin-top: 5px; font-weight: bold; }
+div#speakers div.container div.grid-saturday div.talk h3 { width: 400px; padding-top: 21px; float: left; color: #000; font-weight: bold; clear: left; text-align: right; }
+div#speakers div.container div.grid-saturday div.talk p { width: 400px; float: left; clear: left; }
+/*
+ * 0 - Footer
+ * ----------------------------------------------*/
+div#footer { width: 100%; height: 200px; position: absolute; top: 5200px; background: #fff; }
