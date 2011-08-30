@@ -21,7 +21,8 @@
  * ----------------------------------------------*/
 * { margin: 0; padding: 0; outline: none; }
 body { background: url(../../images/bg/body.png) fixed; font: 15px/150% "Helvetica", Arial, Verdana; color: #333; text-shadow: 0 1px 0 #fff; }
-a { text-decoration: none; color: #666; }
+a { text-decoration: none; color: #000; border-bottom: dashed 1px #000; }
+a:hover { color: #666; border: none;}
 .clearfix { clear: both; display: block; }
 h1 { font: 22px/100% 'courier', Helvetica, Arial; color: #000; margin-bottom: 10px; letter-spacing: -2px; }
 h2 { font: 20px/100% 'courier', Helvetica, Arial; color: #333; margin-bottom: 5px; letter-spacing: -2px; }
@@ -37,7 +38,7 @@ li { list-style: none; }
 div#header { width: 100%; height: 130px; position: absolute; top: 0; z-index: 1; position: fixed; background: url(../../images/bg/header.png) no-repeat center; }
 div#header div.container { width: 1000px; margin: auto; }
 div#header div.container div.nav { width: 880px; height: 80px; float: left; margin: 5px 0 5px 60px; }
-div#header div.container div.nav a { width: 150px; height: 42px; padding-top: 28px; float: left; background: url(../../images/nav/header.png) top no-repeat; margin: 5px 10px 0 10px; text-align: center; letter-spacing: -1px; font: 18px/100% 'courier', Helvetica, Arial, Verdana; color: #000;}
+div#header div.container div.nav a { width: 150px; height: 42px; padding-top: 28px; float: left; background: url(../../images/nav/header.png) top no-repeat; margin: 5px 10px 0 10px; text-align: center; letter-spacing: -1px; font: 18px/100% 'courier', Helvetica, Arial, Verdana; color: #000; border: none;}
 div#header div.container div.nav a:hover { background: url(../../images/nav/header.png) bottom no-repeat; color: #00aeef; }
 div#header div.container div.brand { width: 200px; height: 80px; float: left; }
 div#header div.container div.social-media { width: 385px; float: left; text-align: center; padding: 0 0 0 15px; }
@@ -78,7 +79,7 @@ div#grid div.container div.grid div.talk div.img-ico { width: 60px; height: 60px
 div#grid div.container div.grid div.talk div.hours { width: 60px; height: 60px; float: left; clear: left; font-size: 18px; color: #000; font-family: 'courier', Helvetica, Arial, Verdana; letter-spacing: -3px; text-align: center; margin-top: 5px; font-weight: bold; }
 div#grid div.container div.grid div.talk h3 { width: 400px; padding-top: 21px; float: right; color: #000; font-weight: bold; }
 div#grid div.container div.grid div.talk a.title { margin-top: 16px; font-size: 20px; letter-spacing: -1px; font-family: 'courier', Helvetica, Arial, Verdana; width: 400px; float: right; color: #000; font-weight: bold; clear: right; }
-div#grid div.container div.grid div.talk a { font-size: 18px; letter-spacing: -1px; font-family: 'courier', Helvetica, Arial, Verdana; width: 400px; float: right; color: #000; font-weight: bold; clear: right; }
+div#grid div.container div.grid div.talk a { font-size: 18px; letter-spacing: -1px; font-family: 'courier', Helvetica, Arial, Verdana; width: 400px; float: right; color: #000; font-weight: bold; clear: right; border: none; }
 div#grid div.container div.grid div.talk a:hover { text-decoration: underline; }
 div#grid div.container div.grid div.talk p { width: 400px; float: right; clear: right; }
 div#grid div.container div.grid-saturday { width: 480px; float: right; margin: 0 10px; }
@@ -88,7 +89,7 @@ div#grid div.container div.grid-saturday div.talk div.img-ico { width: 60px; hei
 div#grid div.container div.grid-saturday div.talk div.hours { width: 60px; height: 60px; float: right; clear: right; font-size: 18px; color: #000; font-family: 'courier', Helvetica, Arial, Verdana; letter-spacing: -3px; text-align: center; margin-top: 5px; font-weight: bold; }
 div#grid div.container div.grid-saturday div.talk h3 { width: 400px; padding-top: 21px; float: left; color: #000; font-weight: bold; clear: left; text-align: right; }
 div#grid div.container div.grid-saturday div.talk a.title { margin-top: 16px; font-size: 20px; letter-spacing: -1px; font-family: 'courier', Helvetica, Arial, Verdana; width: 400px; float: left; color: #000; font-weight: bold; clear: left; text-align: right; }
-div#grid div.container div.grid-saturday div.talk a { font-size: 18px; letter-spacing: -1px; font-family: 'courier', Helvetica, Arial, Verdana; width: 400px; float: left; color: #000; font-weight: bold; clear: left; text-align: right; }
+div#grid div.container div.grid-saturday div.talk a { font-size: 18px; letter-spacing: -1px; font-family: 'courier', Helvetica, Arial, Verdana; width: 400px; float: left; color: #000; font-weight: bold; clear: left; text-align: right; border: none; }
 div#grid div.container div.grid-saturday div.talk a:hover { text-decoration: underline; }
 div#grid div.container div.grid-saturday div.talk p { width: 400px; float: left; clear: left; }
 
