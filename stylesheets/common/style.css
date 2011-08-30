@@ -71,12 +71,10 @@ div#speakers div.container div.grid h1 { text-align: center; }
 div#speakers div.container div.grid div.talk { width: 480px; padding: 5px 0; margin-bottom: 15px; border-bottom: dashed 1px #706f6f; }
 div#speakers div.container div.grid div.talk div.img-ico { width: 60px; height: 60px; float: left; clear: left; }
 div#speakers div.container div.grid div.talk div.hours { width: 60px; height: 60px; float: left; clear: left; font-size: 18px; color: #000; font-family: 'courier', Helvetica, Arial, Verdana; letter-spacing: -3px; text-align: center; margin-top: 5px; font-weight: bold; }
-div#speakers div.container div.grid div.talk h3 { width: 400px; padding-top: 16px; float: right; color: #000; font-weight: bold; clear: right; }
-div#speakers div.container div.grid div.talk h4 { width: 400px; float: right; color: #951f0f; font-weight: bold; clear: right; }
-div#speakers div.container div.grid div.talk a { color: #000; }
-div#speakers div.container div.grid div.talk a:hover { color: #015a7a; }
-div#speakers div.container div.grid div.talk a.speaker { color: #951f0f; }
-div#speakers div.container div.grid div.talk a.speaker:hover { color: #000; }
+div#speakers div.container div.grid div.talk h3 { width: 400px; padding-top: 21px; float: right; color: #000; font-weight: bold; }
+div#speakers div.container div.grid div.talk a.title { margin-top: 16px; font-size: 20px; letter-spacing: -1px; font-family: 'courier', Helvetica, Arial, Verdana; width: 400px; float: right; color: #000; font-weight: bold; clear: right; }
+div#speakers div.container div.grid div.talk a { font-size: 18px; letter-spacing: -1px; font-family: 'courier', Helvetica, Arial, Verdana; width: 400px; float: right; color: #000; font-weight: bold; clear: right; }
+div#speakers div.container div.grid div.talk a:hover { text-decoration: underline; }
 div#speakers div.container div.grid div.talk p { width: 400px; float: right; clear: right; }
 div#speakers div.container div.grid-saturday { width: 480px; float: right; margin: 0 10px; }
 div#speakers div.container div.grid-saturday h1 { text-align: center; }
