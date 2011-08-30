@@ -27,6 +27,7 @@ h1 { font: 22px/100% 'courier', Helvetica, Arial; color: #000; margin-bottom: 10
 h2 { font: 20px/100% 'courier', Helvetica, Arial; color: #333; margin-bottom: 5px; letter-spacing: -2px; }
 h3 { font: 18px/100% 'courier', Helvetica, Arial; color: #333; margin-bottom: 5px; letter-spacing: -2px; }
 h4 { font: 16px/100% 'courier', Helvetica, Arial; color: #333; margin-bottom: 5px; letter-spacing: -2px; }
+li { list-style: none; }
 
 
 
@@ -92,7 +93,19 @@ div#grid div.container div.grid-saturday div.talk p { width: 400px; float: left;
  * ----------------------------------------------*/
 div#speakers { width: 100%; top: 6200px; position: absolute; }
 div#speakers div.container { width: 1000px; padding: 140px 0 15px 0; margin: auto; }
-
+div#speakers div.container ul { display: block; padding: 10px; margin-bottom: 10px; }
+div#speakers div.container ul.list-saturday { display: block; }
+div#speakers div.container ul.list-saturday img { float: right; margin: 0 0 5px 10px; }
+div#speakers div.container ul.list-saturday a { float: right; margin: 10px 0; }
+div#speakers div.container ul.list-saturday h1 { float: right; }
+div#speakers div.container ul.list-saturday p { float: right; width: 830px; text-align: right; }
+div#speakers div.container li { border-bottom: dashed 1px #706f6f; padding: 10px;  }
+div#speakers div.container img { float: left; margin: 0 10px 5px 0; }
+div#speakers div.container p { float: right; width: 830px; }
+div#speakers div.container a { border: dashed 1px #706f6f; padding: 3px 5px; margin: 10px 10px 0 0; float: left; color: #000; }
+div#speakers div.container a:hover { background: #fff; }
+div#speakers div.container a.twitter-speaker { width: 32px; height: 32px; text-indent: -9999px; float: left; background: url(../../images/nav/key_t.png) no-repeat; border: none; margin: 9px 0 4px 0px; }
+div#speakers div.container a.blog-speaker { width: 32px; height: 32px; text-indent: -9999px; float: left; background: url(../../images/nav/key_b.png) no-repeat; border: none; margin: 9px 0 4px 0; }
 /*
  * 03 - Page Registration
  * ----------------------------------------------*/
