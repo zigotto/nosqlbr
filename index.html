@@ -19,13 +19,25 @@
 
     <!-- CSS -->
     <link href="stylesheets/common/style.css" rel="stylesheet" type="text/css" />
+    <link href="stylesheets/lib/jquery.colorbox.css" rel="stylesheet" type="text/css" />
 
     <!-- Java Scripts -->
     <script src="http://connect.facebook.net/en_US/all.js#xfbml=1"></script>
     <script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
     <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
-    <script src="javascripts/jquery/jquery.js" type="text/javascript"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
     <script src="javascripts/jquery/jquery.anchor.js" type="text/javascript"></script>
+    <script src="javascripts/jquery/jquery.colorbox.js" type="text/javascript"></script>
+    <script>
+      $(document).ready(function(){
+        $("a[rel='open-more']").colorbox();
+        $(".open").colorbox({width:"50%", inline:true, href: function(){
+            var url = $(this).attr('rel');
+            return url;
+        }});
+      });
+    </script>
+    
   </head>
 
   <body>
@@ -173,13 +185,32 @@
             <div class="img-ico">
               <img src="images/ico/talk.png" width="60" height="60" title="Palestra 01" alt="Palestra 01" />
             </div>
-            <h3>Palestra 01</h3>
+
+            <h3>Modelling with Graphs</h3>
             <p>
-              Vivamus auctor leo vel dui. Aliquam erat volutpat. Phasellus nibh. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Cras tempor. Morbi egestas, urna non consequat tempus, nunc arcu mollis enim.
+              Neo4j is a powerful and expressive tool for storing, querying and manipulating data. However modelling data as graphs is quite different from modelling data under with relational databases. In this talk we’ll cover modelling business...
             </p>
             <div class="hours">
               9:30h
             </div>
+            <div class="bts">
+              <a class="open" href="#" rel="#modelling" title="Palestra completa - sexta feira dia 21 de outubro 9:30h">palestra</a>
+              <a class="open" href="#" rel="#ajones" title="Perfil do palestrante - Palestra: Modelling with Graphs">perfil</a>
+            </div>
+            <div style='display:none'>
+              <div id="modelling">
+                <h2>Modelling with Graphs</h2>
+                Neo4j is a powerful and expressive tool for storing, querying and manipulating data. However modelling data as graphs is quite different from modelling data under with relational databases. In this talk we’ll cover modelling business domains using graphs and show how they can be persisted and queried in the popular open source graph database Neo4j. We'll contrast this approach with the relational model, and discuss the impact on complexity, flexibility and performance. We'll also discuss strategies for deciding how to proceed when a graph allows multiple ways to represent the same concept, and explain the trade-offs involved. As a side-effect, we'll examine some of the new tools for how to query graph data in Neo4j, and discuss architectures for using Neo4j in enterprise applications.
+              </div>
+              <div id="ajones">
+                <img src="images/speakers/ajones.png" style="float: right;" />
+                <h2>Alistair Jones</h2>
+                Is a Software Engineer with Neo Technology, the company behind the popular open source graph database Neo4j.  Alistair has extensive experience as a developer, technical lead and architect for teams building enterprise software across a range of industries.  He has a particular focus Domain Driven Design, and is an expert on Agile methodologies. Alistair often writes and presents on applying Agile principles to the discipline of performance testing.
+              </div>
+            </div>
+            <p>
+            </p>
+
             <br class="clearfix" />
           </div>
 
@@ -293,6 +324,7 @@
         <!-- 2 day -->
         <div class="grid-saturday">
           <h1>Sábado, 22 de outubro</h1>
+
 
           <div class="talk">
             <div class="img-ico">
@@ -452,7 +484,7 @@
       <a name="contato" id="contato"><!-- page contact --></a>
 
       <div class="container">
-        <h1>Contato</h1>
+        <h1>Fale Conosco</h1>
       </div>
     </div>
     <!-- /contact -->

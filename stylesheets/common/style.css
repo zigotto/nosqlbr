@@ -72,6 +72,9 @@ div#speakers div.container div.grid div.talk div.img-ico { width: 60px; height: 
 div#speakers div.container div.grid div.talk div.hours { width: 60px; height: 60px; float: left; clear: left; font-size: 18px; color: #000; font-family: 'courier', Helvetica, Arial, Verdana; letter-spacing: -3px; text-align: center; margin-top: 5px; font-weight: bold; }
 div#speakers div.container div.grid div.talk h3 { width: 400px; padding-top: 21px; float: right; color: #000; font-weight: bold; clear: right; }
 div#speakers div.container div.grid div.talk p { width: 400px; float: right; clear: right; }
+div#speakers div.container div.grid div.talk div.bts { width: 400px; height: 40px; float: right; }
+div#speakers div.container div.grid div.talk a { font-family: 'courier', Helvetica, Arial, Verdana; font-weight: bold; letter-spacing: -2px; float: left; margin: 5px 10px 0 0; color: #04688c; border: dashed 1px #706f6f; padding: 2px 5px; }
+div#speakers div.container div.grid div.talk a:hover { background: #fff; }
 div#speakers div.container div.grid-saturday { width: 480px; float: right; margin: 0 10px; }
 div#speakers div.container div.grid-saturday h1 { text-align: center; }
 div#speakers div.container div.grid-saturday div.talk { width: 480px; padding: 5px 0; margin-bottom: 15px; border-bottom: dashed 1px #706f6f; }
