@@ -655,17 +655,48 @@
           <br />
           No entanto, não podemos esquecer que a expansão dos mercados mundiais obstaculiza a apreciação da importância do investimento em reciclagem técnica.
         </p>
-        <h2>valor da inscrição</h2>
-        <p>
-          - até dia 20/Set R$ 150,00
-          <br />
-          - de 21/Set até 15/Out R$ 200,00
-          <br />
-          - após 15/Out R$ 250,00
-        </p>
+          
+        <div class="pay">
+
+          <div class="column">
+            <strong>
+              Pagamento até o dia 20/Set
+              <br />
+              R$ 150,00
+            </strong>
+            <!-- INICIO FORMULARIO BOTAO PAGSEGURO -->
+            <form target="pagseguro" action="https://pagseguro.uol.com.br/v2/checkout/payment.html" method="post">
+              <input type="hidden" name="code" value="8524A2AF1212091FF4F36FB19319166D" />
+              <input type="image" src="https://p.simg.uol.com.br/out/pagseguro/i/botoes/pagamentos/120x53-pagar-cinza.gif" name="submit" alt="Pague com PagSeguro - é rápido, grátis e seguro!" />
+            </form>
+            <!-- FINAL FORMULARIO BOTAO PAGSEGURO -->
+          </div>
+
+          <div class="column">
+            <strong>
+              Pagamento do dia 21/Set até 15/Out
+              <br />
+              R$ 200,00
+            </strong>
+            <img src="images/embed/bt-pagseguro-off.png" alt="PagSeguro" />
+          </div>
+
+          <div class="column">
+            <strong>
+              Após o dia 15/Out
+              <br />
+              R$ 250,00
+            </strong>
+            <img src="images/embed/bt-pagseguro-off.png" alt="PagSeguro" />
+          </div>
+
+          <br class="clearfix" />
+        </div>
+
       </div>
+
     </div>
-    <!-- /registration -->
+    <!-- registration -->
 
     <!-- footer -->
     <div id="footer">
