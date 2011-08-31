@@ -42,10 +42,10 @@ div#header div.container div.nav a { width: 150px; height: 42px; padding-top: 28
 div#header div.container div.nav a:hover { background: url(../../images/nav/header.png) bottom no-repeat; color: #00aeef; }
 div#header div.container div.brand { width: 315px; height: 80px; float: left; font-family: 'mentone', Helvetica, Arial, Verdana; text-align: center; }
 div#header div.container div.brand h1 { font-family: 'mentone', Helvetica, Arial, Verdana; font-size: 40px; letter-spacing: 0; color: #565656; padding-top: 10px; margin-bottom: 4px; }
-div#header div.container div.brand span.blue { color: #3a8bb5; }
-div#header div.container div.brand span.yellow { color: #fbcb00; }
-div#header div.container div.brand span.green { color: #009f4f; }
-div#header div.container div.brand span.red { color: #e62607; }
+div#header div.container div.brand h1:hover span.blue { color: #3a8bb5; } 
+div#header div.container div.brand h1:hover span.yellow { color: #fbcb00; }
+div#header div.container div.brand h1:hover span.green { color: #009f4f; }
+div#header div.container div.brand h1:hover span.red { color: #e62607; }
 div#header div.container div.social-media { width: 385px; float: left; text-align: center; padding: 0 0 0 15px; }
 div#header div.container div.social-media span { height: 24px; float: left; }
 div#header div.container div.social-media span.google { width: 75px; height: 24px; float: left; }
