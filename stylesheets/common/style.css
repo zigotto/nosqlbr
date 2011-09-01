@@ -61,6 +61,8 @@ div#home { width: 100%; position: absolute; }
 div#home div.container { width: 1000px; padding: 140px 0 15px 0; margin: auto; }
 div#home div.container div.description { width: 680px; padding: 0 10px; float: left; }
 div#home div.container div.description p { display: block; margin-bottom: 10px; line-height: 170%; }
+div#home div.container div.description img { display: block; margin: 80px 0 20px 260px; }
+div#home div.container div.description .center { text-align: center;}
 div#home div.container div.supporters { width: 300px; float: left; }
 div#home div.container div.supporters div.top { width: 300px; height: 40px; float: left; background: url(../../images/bg/top-supporters.png) no-repeat; }
 div#home div.container div.supporters div.top h1 { text-align: center; }
