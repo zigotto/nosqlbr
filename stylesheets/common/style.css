@@ -29,6 +29,7 @@ h2 { font: 20px/100% 'courier', Helvetica, Arial; color: #333; margin-bottom: 5p
 h3 { font: 18px/100% 'courier', Helvetica, Arial; color: #333; margin-bottom: 5px; letter-spacing: -2px; }
 h4 { font: 16px/100% 'courier', Helvetica, Arial; color: #333; margin-bottom: 5px; letter-spacing: -2px; }
 li { list-style: none; }
+img { border: none; }
 
 
 
