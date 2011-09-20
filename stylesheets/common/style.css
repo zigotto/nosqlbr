@@ -91,6 +91,8 @@ div#grid div.container div.grid div.talk div.hours { width: 60px; height: 60px; 
 div#grid div.container div.grid div.talk h3 { width: 400px; padding-top: 21px; float: right; color: #000; font-weight: bold; }
 div#grid div.container div.grid div.talk a.title { margin-top: 16px; font-size: 20px; letter-spacing: -1px; font-family: 'courier', Helvetica, Arial, Verdana; width: 400px; float: right; color: #000; font-weight: bold; clear: right; }
 div#grid div.container div.grid div.talk a { font-size: 18px; letter-spacing: -1px; font-family: 'courier', Helvetica, Arial, Verdana; width: 400px; float: right; color: #000; font-weight: bold; clear: right; border: none; }
+div#grid div.container div.grid div.talk a.default { font-family: 'Helvetica', Arial, Verdana; font-size: 15px; color: #000; border-bottom: dashed 1px #000; width: auto; float: none; font-weight: normal; letter-spacing: 0; }
+div#grid div.container div.grid div.talk a.default:hover { text-decoration: none; border: none; color: #666;}
 div#grid div.container div.grid div.talk a:hover { text-decoration: underline; }
 div#grid div.container div.grid div.talk p { width: 400px; float: right; clear: right; }
 div#grid div.container div.grid-saturday { width: 480px; float: right; margin: 0 10px; }
