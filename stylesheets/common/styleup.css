@@ -58,7 +58,7 @@ div#header div.container div.contact a:hover { color: #666; border-bottom: dashe
 /*
  * 03 - Page Home Event
  * ----------------------------------------------*/
-div#home { width: 100%; position: absolute; }
+div#home { width: 100%; }
 div#home div.container { width: 1000px; padding: 140px 0 15px 0; margin: auto; }
 div#home div.container div.description { width: 680px; padding: 0 10px; float: left; }
 div#home div.container div.description div.highlights { display: block; margin: 20px 0 40px 0; text-align: center; font-family: 'mentone', Helvetica, Arial, Verdana; }
@@ -81,7 +81,7 @@ div#home div.container div.supporters div.bottom { width: 300px; height: 73px; f
 /*
  * 03 - Page Grid
  * ----------------------------------------------*/
-div#grid { width: 100%; top: 3200px; position: absolute; }
+div#grid { width: 100%; }
 div#grid div.container { width: 1000px; padding: 140px 0 0 0; margin: auto; background: url(../../images/bg/speakers.png) repeat-y; }
 div#grid div.container div.grid { width: 480px; float: left; margin: 0 10px; }
 div#grid div.container div.grid h1 { text-align: center; }
@@ -113,7 +113,7 @@ div#grid div.container div.lightning p.small { font-size: 12px; line-height: 110
 /*
  * 03 - Page speakers
  * ----------------------------------------------*/
-div#speakers { width: 100%; top: 6200px; position: absolute; }
+div#speakers { width: 100%; }
 div#speakers div.container { width: 1000px; padding: 140px 0 15px 0; margin: auto; }
 div#speakers div.container ul { display: block; padding: 10px; margin-bottom: 10px; }
 div#speakers div.container ul.list-saturday { display: block; }
@@ -132,7 +132,7 @@ div#speakers div.container a.blog-speaker { width: 32px; height: 32px; text-inde
 /*
  * 03 - Page Registration
  * ----------------------------------------------*/
-div#registration { width: 100%; top: 10200px; position: absolute; }
+div#registration { width: 100%; }
 div#registration div.container { width: 1000px; padding: 140px 0 15px 0; margin: auto; }
 div#registration div.container p { margin: 10px 0;}
 div#registration div.container p.ps { font-size: 12px; }
@@ -144,4 +144,4 @@ div#registration div.pay div.column strong { font-size: 17px; display: block; ma
 /*
  * 0 - Footer
  * ----------------------------------------------*/
-div#footer { width: 100%; height: 200px; position: absolute; top: 12200px; }
+div#footer { width: 100%; height: 200px; }
