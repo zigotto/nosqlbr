@@ -82,7 +82,7 @@ div#home div.container div.supporters div.bottom { width: 300px; height: 73px; f
  * 03 - Page Grid
  * ----------------------------------------------*/
 div#grid { width: 100%; top: 3200px; position: absolute; }
-div#grid div.container { width: 1000px; padding: 140px 0 15px 0; margin: auto; background: url(../../images/bg/speakers.png) repeat-y; }
+div#grid div.container { width: 1000px; padding: 140px 0 0 0; margin: auto; background: url(../../images/bg/speakers.png) repeat-y; }
 div#grid div.container div.grid { width: 480px; float: left; margin: 0 10px; }
 div#grid div.container div.grid h1 { text-align: center; }
 div#grid div.container div.grid div.talk { width: 480px; padding: 5px 0; margin-bottom: 15px; border-bottom: dashed 1px #706f6f; }
@@ -103,6 +103,10 @@ div#grid div.container div.grid-saturday div.talk a.title { margin-top: 16px; fo
 div#grid div.container div.grid-saturday div.talk a { font-size: 18px; letter-spacing: -1px; font-family: 'courier', Helvetica, Arial, Verdana; width: 400px; float: left; color: #000; font-weight: bold; clear: left; text-align: right; border: none; }
 div#grid div.container div.grid-saturday div.talk a:hover { text-decoration: underline; }
 div#grid div.container div.grid-saturday div.talk p { width: 400px; float: left; clear: left; }
+div#grid div.container div.lightning { display: block; margin-top: 15px; padding: 10px 0; background: url(../../images/bg/body.png); }
+div#grid div.container div.lightning h1 { text-align: center; }
+div#grid div.container div.lightning p { display: block; }
+div#grid div.container div.lightning p.small { font-size: 12px; line-height: 110%; }
 
 /*
  * 03 - Page speakers
