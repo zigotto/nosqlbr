@@ -13,3 +13,12 @@
       return url;
     }});
   });
+
+  // Loader
+  $(window).load(function(){
+  $('#facebook_like')
+    .html('<fb:like href="https://www.facebook.com/pages/nosqlbr/249869735053907" send="false" layout="button_count" width="80" show_faces="false" font=""></fb:like>');
+  $('#google_plus')
+    .html('<g:plusone size="medium" href="http://www.nosqlbr.com"></g:plusone>');
+});
+  
