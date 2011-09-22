@@ -22,13 +22,18 @@
     <link href="stylesheets/lib/jquery.colorbox.css" rel="stylesheet" type="text/css" />
 
     <!-- Java Scripts -->
-    <script src="http://connect.facebook.net/en_US/all.js#xfbml=1"></script>
-    <script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
-    <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
-    <script type="text/javascript" src="javascripts/jquery/jquery.anchor.js"></script>
-    <script type="text/javascript" src="javascripts/jquery/jquery.colorbox.js"></script>
-    <script type="text/javascript" src="javascripts/common/core.js"></script>
+    <script type="text/javascript" src="javascripts/common/LAB.js"></script>    
+    <script>
+      $LAB
+      .script("https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js")
+      .script("javascripts/common/core.js")      
+      .script("javascripts/jquery/jquery.anchor.js").wait()
+      .script("javascripts/jquery/jquery.colorbox.js").wait()
+      .script("http://connect.facebook.net/en_US/all.js#xfbml=1").wait()
+      .script("https://apis.google.com/js/plusone.js").wait()
+      .script("http://platform.twitter.com/widgets.js").wait()
+    </script>
+
   </head>
 
   <body>
@@ -58,16 +63,16 @@
         </div>
         <div class="social-media">
 
-          <span>
-            <fb:like href="https://www.facebook.com/pages/nosqlbr/249869735053907" send="false" layout="button_count" width="80" show_faces="false" font=""></fb:like>
+          <span id="facebook_like">
+
           </span>
 
           <span>
             <a href="http://twitter.com/share" class="twitter-share-button" data-count="horizontal" data-via="nosqlbrasil" data-text="no:sql(br)/v2 dias 21 e 22 de outubro - principal evento sobre o tema no brasil #nosqlbr" data-lang="en">Tweet</a>
           </span>
 
-          <span class="google">
-            <g:plusone size="medium" href="http://www.nosqlbr.com"></g:plusone>
+          <span class="google" id="google_plus">
+
           </span>
         </div>
 
