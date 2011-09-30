@@ -137,7 +137,7 @@ div#registration div.container { width: 1000px; padding: 140px 0 15px 0; margin:
 div#registration div.container p { margin: 10px 0;}
 div#registration div.container p.ps { font-size: 12px; }
 div#registration div.pay { width: 1000px; padding: 10px 0; background: url(../../images/bg/pay.png) repeat-y; margin-top: 20px; }
-div#registration div.pay div.column { width: 333px; float: left; text-align: center; }
+div#registration div.pay div.column { width: 500px; float: left; text-align: center; }
 div#registration div.pay div.column strong { font-size: 17px; display: block; margin-bottom: 20px; }
 
 
